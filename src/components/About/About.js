@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import amandaImg from "../../Assets/image.jpeg";
 
 function About() {
   return (
@@ -22,20 +22,20 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 style={{ fontSize: "40px", paddingBottom: "20px" }}>
+             Who <strong>am</strong> I?
             </h1>
-            <Aboutcard />
+            <Aboutcard />1
           </Col>
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={amandaImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -62,7 +62,7 @@ function About() {
           <Techstack iconName="cib-zeit" />
           <Techstack iconName="cib-heroku" />
         </Row>
-        <Github />
+        <Github /> */}
       </Container>
     </Container>
   );

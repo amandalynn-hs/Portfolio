@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
@@ -27,11 +26,11 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "sticky" : "sticky"}
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          Am.
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -68,26 +67,9 @@ function NavBar() {
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <i className="far fa-file-alt"></i> Resume
-              </Nav.Link>
-            </Nav.Item>
+           
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <i className="fas fa-code-branch"></i>{" "}
-                <i className="far fa-star"></i>
-              </Button>
-            </Nav.Item>
+          
           </Nav>
         </Navbar.Collapse>
       </Container>

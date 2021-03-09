@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import ProjectDetail from "./ProjectDetail-MyTeam";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
@@ -13,6 +14,7 @@ import eeg from "../../Assets/Projects/eeg.gif";
 import suicide from "../../Assets/Projects/suicide.png";
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
+import myteam from "../../Assets/Projects/myteam.png";
 
 function Projects() {
   return (
@@ -22,27 +24,36 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{fontSize: "22px"}}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottsom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={myteam}
               isBlog={false}
-              title="Leaf Disease Prediction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="MyTeam Dashboard"
+              description="Researched, created, and implemented a dashboard for managers in the healthcare setting to allow managers to manage their employee's learning."
+              link="/ProjectDetail-MyTeam"
             />
           </Col>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="http://via.placeholder.com/100/cea62d/333333?Text=CaseStudyComingSoon"
+              isBlog={false}
+              title="Goal Management"
+              description="Coming Soon"
+              link="#"
+            />
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              link="/projectdetail-myteam"
             />
           </Col>
 
@@ -97,7 +108,7 @@ function Projects() {
               title="Plant AI"
               site="medium.com"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
