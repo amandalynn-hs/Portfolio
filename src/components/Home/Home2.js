@@ -14,7 +14,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel freely to <strong>connect </strong>with me
+              Feel free to <strong>connect </strong>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -47,7 +47,6 @@ function Home2() {
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
-              <li>hi</li>
            
             </ul>
           </Col>
