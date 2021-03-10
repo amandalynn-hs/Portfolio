@@ -47,6 +47,7 @@ function Home2() {
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
+              <li>hi</li>
            
             </ul>
           </Col>
