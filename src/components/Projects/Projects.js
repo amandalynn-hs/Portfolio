@@ -1,20 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import ProjectDetail from "./ProjectDetail-MyTeam";
-import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+
 import myteam from "../../Assets/Projects/myteam.png";
+import eportfolio from "../../Assets/Projects/eportfolio.png";
+import ecomm from "../../Assets/Projects/ecomm.png";
+import goals from "../../Assets/Projects/goals.png";
+import designSystem from "../../Assets/Projects/desiignsystem.png";
+
 
 function Projects() {
   return (
@@ -37,15 +34,43 @@ function Projects() {
               link="/ProjectDetail-MyTeam"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="http://via.placeholder.com/100/cea62d/333333?Text=CaseStudyComingSoon"
+              imgPath={eportfolio}
               isBlog={false}
-              title="Goal Management"
-              description="Coming Soon"
-              link="#"
+              title="ePortfolio"
+              description="Case study coming soon"
+              link=""
             />
-          </Col> */}
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecomm}
+              isBlog={false}
+              title="HealthStream Store (ecomm)"
+              description="Case study coming soon"
+              link=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={designSystem}
+              isBlog={false}
+              title="Design System"
+              description="Case study coming soon"
+              link=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={goals}
+              isBlog={false}
+              title="Goal Managment"
+              description="Case study coming soon"
+              link=""
+            />
+          </Col>
+         
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -74,7 +99,8 @@ function Projects() {
               isBlog={false}
               title="Suicide Ideation Prediction"
               description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
+              link="https://gist.
+              .com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
             />
           </Col>
 
