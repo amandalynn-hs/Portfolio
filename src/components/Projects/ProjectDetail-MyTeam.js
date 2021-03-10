@@ -109,7 +109,7 @@ function ProjectDetail() {
 <h4>Internal Feedback</h4>
 <p>Internal Feedback
 I sent out a survey to our client-facing teammates to quickly inquire what should be added or removed from our dashboard. The purpose of this was to discover potential quick wins on simple improvements that could be executed quickly.</p>
-      <blockquote>[We need] more employee specific level reporting. More account level changes i.e. adding referral codes. Ability to see info on certain employees at-a-glance i.e. licenses/certification status per employee.     — Response from an internal survey</blockquote>
+      <blockquote>[We need] more employee specific reporting. More account level changes. Ability to see info on certain employees at-a-glance i.e. licenses/certification status per employee.     — Response from an internal survey</blockquote>
 
 <h2>MVP</h2>
 <h4>The <strong>smallest</strong> thing that we can build to be able to learn</h4>

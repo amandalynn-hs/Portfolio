@@ -527,6 +527,10 @@ h1 .main-name-hi {
   height: auto !important;
 }
 
+.project-section .container {
+  margin-top: 40px;
+}
+
 .blog-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px #cccccc33 !important;
@@ -886,7 +890,8 @@ ol {
 }
 
 ol li {
-  margin: 10px
+  margin: 10px;
+  font-size: 1.25rem !important;
 }
 
 .img-gallery {
