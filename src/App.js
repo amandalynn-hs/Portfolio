@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetailMyTeam from "./components/Projects/ProjectDetail-MyTeam";
 
 import Footer from "./components/Footer";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";

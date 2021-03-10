@@ -75,9 +75,9 @@ function ProjectDetail() {
 
 <p>Some of their major pain points came from the lack of access to near real-time actionable data. Some key statements were: </p>
 
-<blockquote class="block-quote">"If a nurse needs to be taken off the floor due to an expired license, I need to know that immediately! We're at huge risk if that nurse working with an expired license.  Data is currently so delayed that they could be working for weeks before we even know."'</blockquote>
+<blockquote className="block-quote">"If a nurse needs to be taken off the floor due to an expired license, I need to know that immediately! We're at huge risk if that nurse working with an expired license.  Data is currently so delayed that they could be working for weeks before we even know."'</blockquote>
 
-<blockquote class="block-quote">"If our annual manditory training isn't completed on time, and we are Audited by the Joint Action Committee, we will be fined in a big way - or even be sanctioned by the CMS - which is a HUGE deal." </blockquote>
+<blockquote className="block-quote">"If our annual manditory training isn't completed on time, and we are Audited by the Joint Action Committee, we will be fined in a big way - or even be sanctioned by the CMS - which is a HUGE deal." </blockquote>
 
 <p>Our users were clear in that we needed to get this data to them for them to be able to act on it to protect their employees, and their larger organizations that they are employeed for.  Actionable data was key.  </p>
 
